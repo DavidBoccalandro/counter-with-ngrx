@@ -8,4 +8,5 @@ export const counterReducer = createReducer<number>(
   on(increment, (state) => state + 1),
   on(decrement, (state) => state - 1),
   on(reset, () => 0)
+  
 );
